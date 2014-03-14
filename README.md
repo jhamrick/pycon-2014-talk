@@ -38,3 +38,14 @@ through the steps that were necessary to create the experiment,
 emphasizing both where there are differences between implementing an
 interactive experiment versus an actual video game, and how the
 experiments fit within a larger theme of Python in science.
+
+
+## Generating and viewing slides
+
+The slides are saved in the form of an IPython notebook, in
+`pycon-2014.ipynb`. To convert them to HTML slides, you can simply
+type `make`, which will generate `pycon-2014.slides.html`.
+
+To serve these slides locally, you can run the command `make
+serve`. They will then be accessible from the URL
+`http://localhost:8000/pycon-2014.slides.html`.
