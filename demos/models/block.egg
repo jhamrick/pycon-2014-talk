@@ -1,0 +1,296 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "egg-trans -tbnall -o /home/jhamrick/project/cogphysics/dev/resources/egg/block.egg /home/jhamrick/project/cogphysics/dev/resources/egg/block.egg"
+}
+<Texture> Block_gloss {
+  "../textures/Block_gloss.png"
+  <Scalar> alpha-file { "../textures/Block_gloss.png" }
+  <Scalar> envtype { gloss }
+}
+<Texture> Block_diffuse {
+  "../textures/Block_diffuse.png"
+  <Scalar> envtype { modulate }
+}
+<Material> Block {
+  <Scalar> diffr { 1 }
+  <Scalar> diffg { 1 }
+  <Scalar> diffb { 1 }
+  <Scalar> emitr { 0 }
+  <Scalar> emitg { 0 }
+  <Scalar> emitb { 0 }
+  <Scalar> specr { 0.5 }
+  <Scalar> specg { 0.5 }
+  <Scalar> specb { 0.5 }
+  <Scalar> shininess { 12.5 }
+}
+<Group> Block {
+  <Transform> {
+    <Matrix4> {
+      1 0 0 0
+      0 1 0 0
+      0 0 1 0
+      0 0 0 1
+    }
+  }
+  <VertexPool> Block {
+    <Vertex> 0 {
+      -0.5 -0.5 -0.5
+      <UV> {
+        0.492 0.902
+        <Tangent> { 0 0 -1 }
+        <Binormal> { 0 -1 0 }
+      }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 -0.5
+      <UV> {
+        0.832 0.562
+        <Tangent> { 0 0 1 }
+        <Binormal> { -1 0 0 }
+      }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 2 {
+      -0.5 -0.5 -0.5
+      <UV> {
+        0.832 0.562
+        <Tangent> { 0 -1 0 }
+        <Binormal> { -1 0 0 }
+      }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 3 {
+      -0.5 -0.5 0.5
+      <UV> {
+        0.371 0.902
+        <Tangent> { 0 0 -1 }
+        <Binormal> { 0 -1 0 }
+      }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 4 {
+      -0.5 -0.5 0.5
+      <UV> {
+        0.949 0.562
+        <Tangent> { 0 0 1 }
+        <Binormal> { -1 0 0 }
+      }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 5 {
+      -0.5 -0.5 0.5
+      <UV> {
+        0.027 0.562
+        <Tangent> { 0 1 0 }
+        <Binormal> { -1 0 0 }
+      }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 6 {
+      -0.5 0.5 -0.5
+      <UV> {
+        0.492 0.562
+        <Tangent> { 0 0 -1 }
+        <Binormal> { 0 -1 0 }
+      }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 7 {
+      -0.5 0.5 -0.5
+      <UV> {
+        0.492 0.562
+        <Tangent> { 0 -1 0 }
+        <Binormal> { -1 0 0 }
+      }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 8 {
+      -0.5 0.5 -0.5
+      <UV> {
+        0.492 0.562
+        <Tangent> { 0 0 -1 }
+        <Binormal> { -1 0 0 }
+      }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 9 {
+      -0.5 0.5 0.5
+      <UV> {
+        0.371 0.562
+        <Tangent> { 0 0 -1 }
+        <Binormal> { 0 -1 0 }
+      }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 10 {
+      -0.5 0.5 0.5
+      <UV> {
+        0.371 0.562
+        <Tangent> { 0 1 0 }
+        <Binormal> { -1 0 0 }
+      }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 11 {
+      -0.5 0.5 0.5
+      <UV> {
+        0.371 0.562
+        <Tangent> { 0 0 -1 }
+        <Binormal> { -1 0 0 }
+      }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 12 {
+      0.5 -0.5 -0.5
+      <UV> {
+        0.832 0.438
+        <Tangent> { 0 0 1 }
+        <Binormal> { -1 0 0 }
+      }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 13 {
+      0.5 -0.5 -0.5
+      <UV> {
+        0.832 0.438
+        <Tangent> { 0 -1 0 }
+        <Binormal> { -1 0 0 }
+      }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 14 {
+      0.5 -0.5 -0.5
+      <UV> {
+        0.492 0.098
+        <Tangent> { 0 0 -1 }
+        <Binormal> { 0 1 0 }
+      }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 15 {
+      0.5 -0.5 0.5
+      <UV> {
+        0.949 0.438
+        <Tangent> { 0 0 1 }
+        <Binormal> { -1 0 0 }
+      }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 16 {
+      0.5 -0.5 0.5
+      <UV> {
+        0.027 0.438
+        <Tangent> { 0 1 0 }
+        <Binormal> { -1 0 0 }
+      }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 17 {
+      0.5 -0.5 0.5
+      <UV> {
+        0.371 0.098
+        <Tangent> { 0 0 -1 }
+        <Binormal> { 0 1 0 }
+      }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 18 {
+      0.5 0.5 -0.5
+      <UV> {
+        0.492 0.438
+        <Tangent> { 0 -1 0 }
+        <Binormal> { -1 0 0 }
+      }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 19 {
+      0.5 0.5 -0.5
+      <UV> {
+        0.492 0.438
+        <Tangent> { 0 0 -1 }
+        <Binormal> { -1 0 0 }
+      }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 20 {
+      0.5 0.5 -0.5
+      <UV> {
+        0.492 0.438
+        <Tangent> { 0 0 -1 }
+        <Binormal> { 0 1 0 }
+      }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 21 {
+      0.5 0.5 0.5
+      <UV> {
+        0.371 0.438
+        <Tangent> { 0 1 0 }
+        <Binormal> { -1 0 0 }
+      }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 22 {
+      0.5 0.5 0.5
+      <UV> {
+        0.371 0.438
+        <Tangent> { 0 0 -1 }
+        <Binormal> { -1 0 0 }
+      }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 23 {
+      0.5 0.5 0.5
+      <UV> {
+        0.371 0.438
+        <Tangent> { 0 0 -1 }
+        <Binormal> { 0 1 0 }
+      }
+      <RGBA> { 1 1 1 1 }
+    }
+  }
+  <Polygon> {
+    <Normal> { 0 0 -1 }
+    <TRef> { Block_gloss }
+    <TRef> { Block_diffuse }
+    <MRef> { Block }
+    <VertexRef> { 18 13 2 7 <Ref> { Block } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 1 }
+    <TRef> { Block_gloss }
+    <TRef> { Block_diffuse }
+    <MRef> { Block }
+    <VertexRef> { 21 10 5 16 <Ref> { Block } }
+  }
+  <Polygon> {
+    <Normal> { 1 0 0 }
+    <TRef> { Block_gloss }
+    <TRef> { Block_diffuse }
+    <MRef> { Block }
+    <VertexRef> { 20 23 17 14 <Ref> { Block } }
+  }
+  <Polygon> {
+    <Normal> { 0 -1 0 }
+    <TRef> { Block_gloss }
+    <TRef> { Block_diffuse }
+    <MRef> { Block }
+    <VertexRef> { 12 15 4 1 <Ref> { Block } }
+  }
+  <Polygon> {
+    <Normal> { -1 0 0 }
+    <TRef> { Block_gloss }
+    <TRef> { Block_diffuse }
+    <MRef> { Block }
+    <VertexRef> { 0 3 9 6 <Ref> { Block } }
+  }
+  <Polygon> {
+    <Normal> { 0 1 0 }
+    <TRef> { Block_gloss }
+    <TRef> { Block_diffuse }
+    <MRef> { Block }
+    <VertexRef> { 22 19 8 11 <Ref> { Block } }
+  }
+}

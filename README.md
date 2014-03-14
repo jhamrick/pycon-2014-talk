@@ -49,3 +49,26 @@ type `make`, which will generate `pycon-2014.slides.html`.
 To serve these slides locally, you can run the command `make
 serve`. They will then be accessible from the URL
 `http://localhost:8000/pycon-2014.slides.html`.
+
+Note that you will need the following dependencies installed to
+generate the slides:
+   
+* pandoc
+* pygments
+
+
+## Running the demos
+
+There are several demos located in the `demos` folder:
+   
+* `will_it_fall.py`
+* `which_direction.py`
+
+These should be run from with the `demos` folder. All resources are
+included in this repository (models, textures, stimuli, etc.). You
+will also need the following dependencies:
+    
+* [scenesim](https://github.com/pbattaglia/scenesim)
+* [Panda3D](http://www.panda3d.org) (recent dev build)
+* path.py
+* numpy
