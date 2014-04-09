@@ -1,0 +1,38 @@
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5 {
+    font-family: "Trebuchet MS, Helvetica, sans-serif" !important;
+}
+
+.reveal p, .reveal li {
+    font-size: 1.2em;
+}
+
+.reveal li {
+    padding: 0.5em 0;
+}
+
+.reveal li ul li {
+    padding: 0.1em !important;
+    font-size: 0.9em;
+}
+
+p.caption, p.footnote {
+    font-size: 0.8em !important;
+}
+
+img {
+    max-height: 450px !important;
+}
+
+blockquote {
+    box-shadow: none !important;
+    border-left: 5px gray solid !important;
+    padding: 0 0 0.5em 1em !important;
+}
+
+.prompt {
+    visibility: hidden;
+}
+
+.rendered_html ul, .rendered_html ol {
+    margin: 0 1em;
+}
