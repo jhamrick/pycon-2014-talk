@@ -10,10 +10,10 @@ clean:
 gh-pages:
 	make clean || true
 	make pycon-2014.slides.html
-	mv pycon-2014.slides.html index.html
 	git checkout gh-pages
 	git checkout master $(SOURCES)
 	git reset HEAD
+	mv pycon-2014.slides.html index.html
 	git add -A
-	git ci -m "Generated gh-pages for `git log master -1 --pretty=short --abbrev-commit`" #&& git push origin gh-pages
+	git ci -m "Generated gh-pages for `git log master -1 --pretty=short --abbrev-commit`" && git push origin gh-pages
 	git checkout master
