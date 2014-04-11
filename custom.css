@@ -40,3 +40,9 @@ blockquote {
 .rendered_html ul, .rendered_html ol {
     margin: 0 1em;
 }
+
+@media print {
+  a[href]:after {
+    content: none !important;
+  }
+}
