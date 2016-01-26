@@ -224,6 +224,6 @@ class DirectionExperiment(ViewTowers):
         return cv
 
 if __name__ == "__main__":
-    stims = path("stimuli/which_direction").listdir()
+    stims = [x for x in path("stimuli/which_direction").listdir() if x.endswith(".cpo")]
     stimtypes = ["original" for x in stims]
     DirectionExperiment.create(stimulus=stims, stimtype=stimtypes)

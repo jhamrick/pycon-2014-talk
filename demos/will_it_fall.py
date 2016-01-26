@@ -191,6 +191,6 @@ class StabilityExperiment(ViewTowers):
 
 
 if __name__ == "__main__":
-    stims = path("stimuli/will_it_fall").listdir()
+    stims = [x for x in path("stimuli/will_it_fall").listdir() if x.endswith(".cpo")]
     stimtypes = ["original" for x in stims]
     StabilityExperiment.create(stimulus=stims, stimtype=stimtypes)
